@@ -1,7 +1,10 @@
 a=int(input())
 b=int(input())
 c=int(input())
-tsa=((2*a*b)+(2*b*c)+(2*c*a))
-vol=a*b*c
-print(tsa)
-print(vol)
+if((a>0)&(b>0)&(c>0)):
+  tsa=((2*a*b)+(2*b*c)+(2*c*a))
+  vol=a*b*c
+  print(tsa)
+  print(vol)
+else:
+  print('invalid')
