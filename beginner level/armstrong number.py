@@ -8,3 +8,5 @@ while t > 0:
   t //= 10
 if a == s:
   print('yes')
+else:
+  print('no')
